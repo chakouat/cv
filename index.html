@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV Professionnel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            line-height: 1.6;
+            color: #2d3436;
+            background-color: #f9f9f9;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0984e3;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-info {
+            flex: 1;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            color: #2d3436;
+        }
+        
+        .header p {
+            margin: 8px 0;
+            font-size: 16px;
+            color: #636e72;
+        }
+        
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0984e3;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+        
+        section {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #0984e3;
+            border-bottom: 2px solid #dfe6e9;
+            padding-bottom: 8px;
+        }
+        
+        ul {
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            color: #2d3436;
+        }
+        
+        li:before {
+            content: "•";
+            color: #0984e3;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #636e72;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Effets de survol pour les éléments interactifs */
+        .header p:hover {
+            color: #0984e3;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-info">
+            <h1>Chakouat Marouane</h1>
+            <p>Email: maouane.chakouat@gmail.com</p>
+            <p>Phone:  +212631822714</p>
+        </div>
+        <!-- Remplacez "profile.jpg" par votre photo -->
+        <img src="chakouat marouane.jpg" alt="Photo de profil" class="profile-pic">
+    </div>
+    
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Baccalauréat Scientifique - Option Mathématiques</strong>
+                <br>Lycée Charif El Idrissi, 2024
+                <br>Mention: Bien
+                <li>
+                    <strong>DUT en Genie Informatique</strong>
+                    <br>Department of Computer Science
+                    Higher School of Technology of Safi
+                    Cadi Ayyad University
+                    <br><span class="current-study">En cours d'obtention</span>
+                </li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Software Developer</strong>
+            <li><strong>Data Analyst</strong>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>HTML</strong> 
+            <li><strong>CSS</strong> 
+            <li><strong>JavaScript</strong> 
+            <li><strong>Python</strong> 
+            <li><strong>SQL</strong>  
+            <li><strong>Assembleur</strong>         
+        </ul>
+    </section>
+    
+    <div class="footer">
+        © CHAKOUAT MAROUANE 2023 
+    </div>
+</body>
+</html>
